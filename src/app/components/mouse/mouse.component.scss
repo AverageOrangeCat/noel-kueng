@@ -1,0 +1,23 @@
+[mouse] {
+    width: 2.5rem;
+
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+
+    pointer-events: none;
+    user-select: none;
+}
+
+.color-normal {
+    color: #ffffff;
+}
+
+.color-normal::-moz-selection {
+    color: #000000;
+    background: #ffffff;
+}
+
+.color-normal::selection {
+    color: #000000;
+    background: #ffffff;
+}

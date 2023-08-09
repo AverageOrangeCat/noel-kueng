@@ -1,0 +1,60 @@
+[document] {
+    display: grid;
+    grid-template-columns: 3rem 1fr 3rem;
+    grid-template-rows: 3rem 1fr 3rem;
+
+    width: 50rem;
+
+    border: 0.05rem solid;
+    border-radius: 0.125rem;
+
+    transition: ease all 0.5s;
+}
+
+[document-title] {
+    grid-column: 1 / 4;
+    grid-row: 1;
+
+    margin: 0.75rem;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 1rem;
+}
+
+[document-content] {
+    grid-column: 2;
+    grid-row: 2;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+[document-content]:focus {
+    outline: none;
+}
+
+.color-normal {
+    color: #ffffff;
+    border-color: #ffffff
+}
+
+.color-normal::-moz-selection {
+    color: #000000;
+    background: #ffffff;
+}
+
+.color-normal::selection {
+    color: #000000;
+    background: #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+    [document] {
+        width: 25rem;
+        transform: scale(0.75);
+    }
+}

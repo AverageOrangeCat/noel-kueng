@@ -1,0 +1,29 @@
+[head] {
+    font-family: 'Amatic SC', cursive;
+}
+
+.head-large {
+    font-size: 3rem;
+}
+
+.head-medium {
+    font-size: 2rem;
+}
+
+.head-small {
+    font-size: 1rem;
+}
+
+.color-normal {
+    color: #ffffff;
+}
+
+.color-normal::-moz-selection {
+    color: #000000;
+    background: #ffffff;
+}
+
+.color-normal::selection {
+    color: #000000;
+    background: #ffffff;
+}

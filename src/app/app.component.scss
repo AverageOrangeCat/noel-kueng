@@ -1,0 +1,15 @@
+main {
+    grid-column: 1;
+    grid-row: 1;
+    
+    overflow-y: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+
+    min-height: 25rem;
+    z-index: 0;
+}
+
+main::-webkit-scrollbar { 
+    display: none;
+}

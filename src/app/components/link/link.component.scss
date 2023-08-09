@@ -1,0 +1,50 @@
+[link] {
+    font-family: 'Amatic SC', cursive;
+    
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.link-solid {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.link-solid:hover {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.link-button {
+    padding: 1rem;
+
+    border: 0.05rem solid;
+    border-radius: 0.125rem;
+    
+    font-size: 1rem;
+}
+
+.link-button:hover {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: 0.1rem solid;
+}
+
+.color-normal {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.color-normal:hover {
+    color: #444444;
+    border-color: #444444;
+}
+
+.color-normal::-moz-selection {
+    color: #000000;
+    background: #ffffff;
+}
+
+.color-normal::selection {
+    color: #000000;
+    background: #ffffff;
+}
